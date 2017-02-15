@@ -1,0 +1,202 @@
+body{
+    background-image:  url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+}
+
+.nav ul li{
+    
+   
+    font-family:agency fb;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+   
+    
+}
+#design{
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 3px solid darkred;
+}
+.nav li{
+    text-align: center;
+    display: inline;
+    padding-right: 32px;
+    padding-left: 32px;
+    
+    
+}
+
+.nav{
+    margin-left: 0px;
+    border-right: solid 5px darkred;
+    border-left: solid 5px darkred;
+    border-top: solid 5px darkred;
+    border-bottom: solid 5px darkred;
+    
+    height: 110px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.wrap1 span{
+    font-size: 50px;
+    margin-right: 10px;
+    margin-left: 100px;
+    font-family: cursive;
+    font-weight: italic;
+}
+
+.nav a:hover,  .nav a:active,
+.nav .active a:link,
+.nav .active a.visited
+ {
+     color: darkred;
+   
+     
+     
+     
+ }
+ .container{
+     clear: both;
+     height: 460px;
+     width: 1000px;
+     background: rgba(255,255,255,0.5);
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 7px;
+     margin-bottom: 0;
+     
+     border-top-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     padding: 10px;
+ }
+ .container img{
+     height: 200px;
+     border-top-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     margin-left: auto;
+     border-right: solid 5px darkred;
+    border-left: solid 5px darkred;
+     
+     
+ }
+ .container span{
+     color: black;
+     font-family: calibri;
+     font-size: 20px;
+     
+     line-height: 150%;
+     text-align: justify;
+     display:block;
+ }
+ .container h1{
+     font-family: agency fb;
+     color: black;
+ }
+ .container hr{
+     width: 300px;
+     background-color: darkred;
+     height: 5px;
+     border: 0;
+ }
+ .container p{
+     font-size: 60px;
+     font-family: agency fb;
+     text-align: center;
+     line-height: 200%;
+     color: black;
+
+ }
+ .mgames {
+     height: 40px;
+     width: 780px;
+     background-color: white;
+     opacity: .5;
+     padding: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+     margin-bottom: 0;
+     text-align: center;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+
+ }
+ .mgames span{
+     color:black;
+     font-size: 30px;
+     font-family: agency fb;
+     letter-spacing: 2px;
+     font-weight: bold;
+    
+     
+ }
+ 
+ .about{
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     height: 800px;
+     width: 900px;
+     background: rgba(255,255,255,0.5);
+      margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     margin-bottom: 0px;
+
+     padding: 10px;
+     color: black;
+     font-family: calibri;
+     text-align: justify;
+     line-height: 170%;
+ }
+
+ 
+
+
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: darkred;
+    font-family: agency fb;
+    letter-spacing: 2px;
+    padding: 5px;
+
+   bottom: 0px;
+    position: fixed;
+}
+.footer span{
+    margin-left: 300px;
+}
+.footer img{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+
+#contact{
+    color: black;
+    
+}
+#quote{
+    font-size: 50px;
+}
